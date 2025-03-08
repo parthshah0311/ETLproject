@@ -1,0 +1,9 @@
+{
+	"name": "rawtobronze2",
+	"location": "canadacentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "9dd39238-f231-439f-b12c-822f582424a4",
+		"tenantId": "6eefac15-18e8-47a1-befc-917b9ff92e8b"
+	}
+}
