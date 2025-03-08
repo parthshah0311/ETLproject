@@ -1,0 +1,22 @@
+{
+	"name": "ls_bronzelayer",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://broznecontainer311.dfs.core.windows.net/",
+			"tenant": "6eefac15-18e8-47a1-befc-917b9ff92e8b",
+			"servicePrincipalId": "395d2e6e-8154-4888-b240-173d557dca61",
+			"servicePrincipalCredentialType": "ServicePrincipalKey",
+			"servicePrincipalCredential": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "bronzkey"
+			}
+		}
+	}
+}

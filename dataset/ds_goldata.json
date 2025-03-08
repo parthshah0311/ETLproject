@@ -1,0 +1,37 @@
+{
+	"name": "ds_goldata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_goldlayer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "gold"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "account_id",
+				"type": "INT_32"
+			},
+			{
+				"name": "transaction_type",
+				"type": "UTF8"
+			},
+			{
+				"name": "transaction_count",
+				"type": "INT_64"
+			},
+			{
+				"name": "total_amount",
+				"type": "DOUBLE"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

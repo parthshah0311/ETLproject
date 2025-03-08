@@ -1,0 +1,18 @@
+{
+	"name": "bronze",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_bronzelayer",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "bronzecontainer"
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
