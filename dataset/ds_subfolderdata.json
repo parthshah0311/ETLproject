@@ -1,0 +1,22 @@
+{
+	"name": "ds_subfolderdata",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_backend",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Folder": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Binary",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "raw"
+			}
+		}
+	}
+}
