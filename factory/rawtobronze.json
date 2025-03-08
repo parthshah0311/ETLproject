@@ -3,7 +3,7 @@
 	"location": "canadacentral",
 	"identity": {
 		"type": "SystemAssigned",
-		"principalId": "ba67548c-bcb0-499f-9841-97a4f203aee1",
-		"tenantId": "6eefac15-18e8-47a1-befc-917b9ff92e8b"
+		"principalId": "8c26faa2-6587-461b-ba89-ba6fc1ae92a4",
+		"tenantId": "4ddd393a-e98a-4404-841f-c4becdd925a5"
 	}
 }
